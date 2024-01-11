@@ -1,0 +1,47 @@
+body {
+	font-family: 'Laila', serif;
+}
+
+.navbar-brand {
+	color: #fff !important;
+}
+
+nav {
+	border-bottom: 1px solid rgba(221, 221, 221, 0.378);
+}
+
+nav .nav-link {
+	color: #fff;
+	opacity: 0.8;
+}
+
+nav .nav-link.active {
+	color: #fff !important;
+	opacity: 1;
+}
+
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.overlay {
+	z-index: 111;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000c3;
+	width: 100%;
+	height: 100vh;
+}
+
+.hero-container {
+	padding-top: 100px;
+	align-items: center;
+	height: 100vh;
+	margin: auto;
+}
