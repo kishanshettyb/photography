@@ -1,0 +1,23 @@
+body {
+	font-family: 'Laila', serif;
+	/* font-family: 'Poppins', sans-serif; */
+}
+
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.overlay {
+	z-index: 111;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000ab;
+	width: 100%;
+	height: 100vh;
+}
